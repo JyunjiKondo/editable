@@ -1,0 +1,77 @@
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.profile {
+  margin: 5px 20px 0 0;
+  text-align: right;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  .name {
+    margin-left: 8px;
+    vertical-align: bottom;
+    line-height: 28px;
+  }
+}
+
+.logo {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.preview {
+  width: 252px;
+  height: 334px;
+  margin: 0 auto;
+  background-image: url(image/no-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: block;
+  width: 242px;
+  margin: 10px auto;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.pick {
+  font-size: 13px;
+}
+
+.edit {
+  font-size: 13px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+}
+
+.sorry {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  p.strong {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

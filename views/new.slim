@@ -1,0 +1,15 @@
+.profile
+  img src=me["profile_image_url"]["crop_S"]
+  span.name =me["screen_name"]
+.logo
+  a href="/" Editable
+form action="/" method="POST"
+  input.file type="file" name="file"
+  .preview
+  input.title type="text" name="title" placeholder="Title" pattern=".{1,50}" required=true
+  .buttons
+    button.pick type="button" Pick Image
+    button.edit type="button" Edit Image
+    input type="submit" value="POST Item"
+  input type="hidden" name="stream-id" value=streams[0]['id']
+  input.data-url type="hidden" name="data-url"
