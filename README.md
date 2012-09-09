@@ -8,6 +8,5 @@ Image editing web apps which provides:
 * Edit a image using "[Edit](http://webintents.org/edit)" web intent.
 * Post edited image to [tab](http://tab.do) service.
 
-# Demo
-
+## Demo
 http://editable.herokuapp.com
